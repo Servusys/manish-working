@@ -1,0 +1,66 @@
+{
+  "name": "isleeptempnew",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@mui/icons-material": "^5.15.14",
+    "@mui/material": "^5.15.14",
+    "@mui/x-charts": "^6.19.5",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.7",
+    "bootstrap": "^5.3.3",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "datatables.net-dt": "^2.0.2",
+    "dotenv": "^16.4.5",
+    "jquery": "^3.7.1",
+    "metismenujs": "^1.4.0",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-data-table-component": "^7.6.2",
+    "react-datepicker": "^6.4.0",
+    "react-dom": "^18.2.0",
+    "react-google-charts": "^4.0.1",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.22.2",
+    "react-scripts": "5.0.1",
+    "react-sortablejs": "^6.1.4",
+    "react-toastify": "^10.0.5",
+    "select2": "^4.1.0-rc.0",
+    "sweetalert2": "^11.10.6",
+    "tailwindcss": "^3.4.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "NODE_OPTIONS=\"--max_old_space_size=8192\" react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.24.1"
+  }
+}

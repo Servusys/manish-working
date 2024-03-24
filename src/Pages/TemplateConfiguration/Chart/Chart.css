@@ -1,0 +1,296 @@
+
+.chart-box {
+    width: 100%;
+    height: calc(100% - 38px);
+}
+
+.chart-box canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.chart-box svg {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.apexcharts-canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.chartOrTableType {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.modalChartBox>div {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 200px !important;
+}
+
+.modalChartBox>div>div {
+    width: 100% !important;
+    height: 100% !important;
+}
+.modalChartBox>div>div svg{
+    width: 100% !important;
+    height: 100% !important;
+}
+.modalChartBox canvas{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* PREVIEW CHART CSS */
+
+.preview-chart-box {
+    width: 50%;
+    height: 400px;
+}
+
+.preview-chart-box>div,
+.preview-content-box>div {
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.preview-content-box-4 {
+    width: 33.33%;
+}
+
+@media (max-width: 1200px) {
+    .preview-content-box-4 {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .preview-content-box-4 {
+        width: 100% !important;
+    }
+
+    .preview-chart-box {
+        width: 100% !important;
+        height: 400px;
+    }
+}
+
+
+
+.chartOrTableType2 {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.preview-chart-box canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.preview-chart-box svg {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.preview-chart-box .apexcharts-canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.preview-content-box .hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    font-weight: 600;
+}
+
+.preview-content-box .hr-text:before {
+    content: "";
+    background: linear-gradient(to right, transparent, #000000, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+}
+
+.preview-content-box .hr-text:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 0.5em;
+    line-height: 1.5em;
+    background-color: #fcfcfa;
+}
+
+/* 
+
+.modalChartBox>div {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 200px !important;
+}
+
+.modalChartBox>div>div {
+    width: 100% !important;
+    height: 100% !important;
+}
+.modalChartBox>div>div svg{
+    width: 100% !important;
+    height: 100% !important;
+} */
+
+.preview-content-box label {
+    display: flex;
+    cursor: pointer;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0.375em;
+}
+
+.preview-content-box .containers label input {
+    position: absolute;
+    left: -9999px;
+}
+
+.preview-content-box .containers label input:checked+span:not(:first-child) {
+    background-color: lightblue;
+}
+
+.preview-content-box .containers label input:checked+span:not(:first-child):before {
+    box-shadow: inset 0 0 0 0.4375em #00005c;
+}
+
+.preview-content-box .containers label span {
+    display: flex;
+    align-items: center;
+    padding: 0.0075em 0.75em 0.0075em 0.75em;
+    border-radius: 99em;
+    transition: 0.25s ease;
+}
+
+.preview-content-box .containers label span:not(:first-child) {
+    cursor: pointer;
+}
+
+.preview-content-box .containers label span:not(:first-child):hover {
+    background-color: #d6d6e5;
+}
+
+.preview-content-box .containers label span:not(:first-child):before {
+    display: flex;
+    flex-shrink: 0;
+    content: "";
+    background-color: #fff;
+    width: 0.85em;
+    height: 0.85em;
+    border-radius: 50%;
+    margin-right: 0.375em;
+    transition: 0.25s ease;
+    box-shadow: inset 0 0 0 0.125em #ceceff;
+}
+
+.preview-content-box .containers {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.preview-content-box .input input[type=color] {
+    padding: 0px 5px 0px 121px;
+    height: 33px;
+}
+
+.input-color {
+    position: absolute;
+    top: 6px;
+    font-weight: 700;
+    left: 8px;
+}
+
+.preview-content-box .input {
+    position: relative;
+    overflow: unset !important;
+}
+
+.preview-content-box .input__label {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    padding: 4px;
+    margin: 4px;
+    background: #fff;
+    white-space: nowrap;
+    transform: translate(0, 0);
+    transform-origin: 0 0;
+    transition: transform 120ms ease-in;
+    font-weight: bold;
+    line-height: 1;
+    z-index: 1000;
+}
+
+.preview-content-box .input__field {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border: 1px solid #ceceff;
+    padding: 4px;
+    background: transparent;
+    border-radius: 4px;
+}
+
+.preview-content-box .input__field:not(:-moz-placeholder-shown)+.input__label {
+    transform: translate(0.25rem, -65%) scale(0.8);
+    color: green;
+}
+
+.preview-content-box .input__field:not(:-ms-input-placeholder)+.input__label {
+    transform: translate(0.25rem, -65%) scale(0.8);
+    color: yellow;
+}
+
+.preview-content-box .input__field:focus+.input__label,
+.preview-content-box .input__field:not(:placeholder-shown)+.input__label {
+    transform: translate(0.25rem, -65%) scale(0.8);
+    color: blue;
+}
+
+.c_input {
+    width: 50px !important;
+    height: 22px !important;
+}
+
+.c_input-text {
+    width: 100px !important;
+    height: 22px !important;
+}
+
+.c_input-text-title {
+    width: 200px !important;
+    height: 22px !important;
+}
+
+.selectChart label>div{
+    height: 100% !important;
+}
+.css-3r82j0-MuiTabs-flexContainer button {
+    width: 100% !important;
+    text-align: start;
+    align-items: flex-start;
+    border-bottom: 1px solid #0003;
+    }
+.css-1r5ppdd-MuiTabs-scroller {
+    width: 140px;
+}
